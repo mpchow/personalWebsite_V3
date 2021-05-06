@@ -8,32 +8,32 @@ let projects = [
       github: "https://github.com/mpchow/Cuetips_nwHacks2021"
    },
    {
-      name: "",
+      name: "Personal Website V2",
       description: "",
       github: ""
    },
    {
-      name: "",
+      name: "Ecommerce Marketplace",
       description: "",
       github: ""
    },
    {
-      name: "",
+      name: "Autonomous Bot",
       description: "",
       github: ""
    },
    {
-      name: "",
+      name: "Expense Tracker",
       description: "",
       github: ""
    },
    {
-      name: "",
+      name: "Personal Website V1",
       description: "",
       github: ""
    },
    {
-      name: "",
+      name: "Early-Bird",
       description: "",
       github: ""
    },
@@ -49,10 +49,12 @@ class Archive extends React.Component {
                {projects.map(project => {
                   return  <div className="archive-project">
                               <div className="archive-project-description">
-                                 <h4>{project.name}</h4>
-                                 <h5>{project.description}</h5>
+                                 <div>
+                                    <h5>{project.name}</h5>
+                                    <h5>{project.description}</h5>
+                                 </div>
+                                 <h5><a href={project.github} className="project-link">Github</a></h5>
                               </div>
-                              <h5><a href={project.github}>Github</a></h5>
                            </div>
                })}
             </div>

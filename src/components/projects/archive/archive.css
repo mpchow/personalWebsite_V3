@@ -11,6 +11,7 @@
 
 .archive-project {
    width: 20vw;
+   max-width: 20vw;
    height: 20vw;
    border: 5px solid #000000;
    margin-bottom: 2vw;
@@ -21,3 +22,40 @@
    transform: translate(-5px, -5px);
    box-shadow: 5px 5px 0px 1px #c491db;
 }
+
+.project-link {
+   display: inline;
+   position: relative;
+}
+.project-link:hover {
+   cursor: pointer;
+}
+.project-link:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   right: 0;
+   width: 0;
+   bottom: -5px;
+   background: #000;
+   height: 2px;
+   transition-property: width;
+   transition-duration: 0.5s;
+   transition-timing-function: ease-out;
+}
+.project-link:hover:after,
+.project-link:focus:after,
+.project-link:active:after {
+   left: 0;
+   right: auto;
+   width: 100%;
+}
+
+.archive-project-description {
+   padding: 0vh 5vh 0vh 5vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+}
+
