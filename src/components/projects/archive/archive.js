@@ -51,9 +51,9 @@ class Archive extends React.Component {
                               <div className="archive-project-description">
                                  <div>
                                     <h5>{project.name}</h5>
-                                    <h5>{project.description}</h5>
+                                    <p>{project.description}</p>
                                  </div>
-                                 <h5><a href={project.github} className="project-link">Github</a></h5>
+                                 <p><a href={project.github} className="project-link" target="_blank" rel="noopener noreferrer">Github</a></p>
                               </div>
                            </div>
                })}
