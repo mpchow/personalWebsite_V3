@@ -1,0 +1,31 @@
+.featured {
+   margin-bottom: 20vh;
+}
+
+
+.project {
+   display: flex;
+   width: 67.5vw;
+   margin-bottom: 10vh;
+}
+
+.project img {
+   width: 50%;
+}
+
+.project-description {
+   border: 5px solid #000000;
+   width: 50%;
+   max-width: 50%;
+   max-height: 50%;
+   padding: 0vh 5vh 0vh 5vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.project-links {
+   position: relative;
+   bottom: 0;
+
+}

@@ -1,0 +1,28 @@
+.home {
+   padding: 10vh 0 5vh 16.5vw;
+   height: 100vh;
+}
+
+.home h1 {
+   padding-bottom: 5vh;
+}
+
+.name {
+   color: #6FB6DD;
+}
+
+.UBC {
+   color: #568B9D;
+}
+
+.League {
+   color: #47B8DF;
+}
+
+.SAP {
+   color: #FF9B81;
+}
+
+.Perk {
+   color: #AC99BD;
+}

@@ -1,0 +1,17 @@
+.archive {
+   width: 67.5vw;
+}
+
+.archive-content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   flex-direction: row;
+}
+
+.archive-project {
+   width: 20vw;
+   height: 20vw;
+   border: 5px solid #000000;
+   margin-bottom: 2vw;
+}

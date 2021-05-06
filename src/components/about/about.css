@@ -1,0 +1,21 @@
+.about {
+   margin: 0vh 10vh 30vh 0vh;
+   display: flex;
+}
+
+.about-title-section {
+   position: relative;
+   top: 2.5vh;
+   left: 5vh;
+   width: 11.5vw;
+}
+
+.about-title {
+   color: #FFB29E;
+   -webkit-transform: rotate(-90deg);
+}
+
+.work-content {
+   position: relative;
+   left: 4.5vw;
+}

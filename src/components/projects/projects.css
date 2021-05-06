@@ -1,0 +1,21 @@
+.projects {
+   display: flex;
+   margin: 0vh 10vh 30vh 0vh;
+}
+
+.projects-title-section {
+   position: relative;
+   top: 7.5vh;
+   left: 5vh;
+   width: 11.5vw;
+}
+
+.projects-title {
+   color: #FFB29E;
+   -webkit-transform: rotate(-90deg);
+}
+
+.projects-content {
+   position: relative;
+   left: 4.5vw;
+}

@@ -1,0 +1,9 @@
+.education-header {
+   display: flex;
+   align-items: baseline;
+   justify-content: space-between;
+}
+
+.education-content {
+   margin-top: -3vh;
+}

@@ -1,0 +1,11 @@
+.work {
+   width: 67.5vw;
+   margin-bottom: 15vh;
+}
+
+
+.job {
+   display: flex;
+   align-items: baseline;
+   justify-content: space-between;
+}
