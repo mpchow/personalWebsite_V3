@@ -54,7 +54,7 @@ class Featured extends React.Component {
                               </div>
 
                               <h5 className="project-links">
-                                 <a href={project.github}>Github</a> {project.link && "|"}  {project.link && <a href={project.link}>View</a>}
+                                 <a href={project.github} className="project-link">Github</a> {project.link && "|"}  {project.link && <a href={project.link} className="project-link">View</a>}
                               </h5> 
                            </div> 
                         </div>  })}
