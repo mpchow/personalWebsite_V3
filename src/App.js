@@ -5,16 +5,33 @@ import Sidebar from './components/sidebar/sidebar'
 import About from './components/about/about'
 import Projects from './components/projects/projects'
 import Footer from './components/footer/footer'
+import Resume from './components/resume/resume'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Sidebar />
-      <Home />
-      <About />
-      <Projects />
-      <Footer />
-    </div>
+    <Router>  
+      <div className="App">
+        <Switch>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/">
+            <div>
+              <Sidebar />
+              <Home />
+              <About />
+              <Projects />
+              <Footer />
+            </div>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
