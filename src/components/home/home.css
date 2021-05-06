@@ -14,15 +14,124 @@
 .UBC {
    color: #568B9D;
 }
+.UBC {
+   display: inline;
+   position: relative;
+ }
+ .UBC:hover {
+    cursor: pointer;
+ }
+ .UBC:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   right: 0;
+   width: 0;
+   bottom: -5px;
+   background: #568B9D;
+   height: 2px;
+   transition-property: width;
+   transition-duration: 0.5s;
+   transition-timing-function: ease-out;
+ }
+ .UBC:hover:after,
+ .UBC:focus:after,
+ .UBC:active:after {
+   left: 0;
+   right: auto;
+   width: 100%;
+ }
 
 .League {
    color: #47B8DF;
 }
+.League {
+   display: inline;
+   position: relative;
+ }
+ .League:hover {
+    cursor: pointer;
+ }
+ .League:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   right: 0;
+   width: 0;
+   bottom: -5px;
+   background: #47B8DF;
+   height: 2px;
+   transition-property: width;
+   transition-duration: 0.5s;
+   transition-timing-function: ease-out;
+ }
+ .League:hover:after,
+ .League:focus:after,
+ .League:active:after {
+   left: 0;
+   right: auto;
+   width: 100%;
+ }
+
 
 .SAP {
    color: #FF9B81;
 }
+.SAP {
+   display: inline;
+   position: relative;
+ }
+ .SAP:hover {
+    cursor: pointer;
+ }
+ .SAP:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   right: 0;
+   width: 0;
+   bottom: -5px;
+   background: #FF9B81;
+   height: 2px;
+   transition-property: width;
+   transition-duration: 0.5s;
+   transition-timing-function: ease-out;
+ }
+ .SAP:hover:after,
+ .SAP:focus:after,
+ .SAP:active:after {
+   left: 0;
+   right: auto;
+   width: 100%;
+ }
 
 .Perk {
    color: #AC99BD;
 }
+.Perk {
+   display: inline;
+   position: relative;
+ }
+ .Perk:hover {
+    cursor: pointer;
+ }
+ .Perk:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   right: 0;
+   width: 0;
+   bottom: -5px;
+   background: #AC99BD;
+   height: 2px;
+   transition-property: width;
+   transition-duration: 0.5s;
+   transition-timing-function: ease-out;
+ }
+ .Perk:hover:after,
+ .Perk:focus:after,
+ .Perk:active:after {
+   left: 0;
+   right: auto;
+   width: 100%;
+ }

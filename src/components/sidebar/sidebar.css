@@ -1,5 +1,37 @@
 .sidebar {
    position: fixed;
    right: 11.5vh;
-   top: 10vh;
+   top: 17.5vh;
+   height: 20vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.navigation {
+  display: inline;
+  position: relative;
+}
+.navigation:hover {
+   cursor: pointer;
+}
+.navigation:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: #000;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+.navigation:hover:after,
+.navigation:focus:after,
+.navigation:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
 }

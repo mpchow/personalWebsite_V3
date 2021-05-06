@@ -1,0 +1,23 @@
+.footer {
+   background-color: black;
+   height: 30vh;
+   margin-bottom: -5vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.contacts {
+   display: flex;
+   width: 40%;
+}
+
+.contacts a {
+   width: 33%;
+   text-align: center;
+}
+
+.footer h6 {
+   color: white;
+}
