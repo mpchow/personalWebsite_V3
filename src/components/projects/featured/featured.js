@@ -20,7 +20,7 @@ let projects = [
       pos: 1
    },
    {
-      name: "Pilldex",
+      name: "Pilldex / 4th Place in Software Engineering" ,
       image: Pilldex, 
       description: "A centralized pill management app with that dynamically adapts reminders based on your habits. Be in the loop with what pills you take today.", 
       tools: "React Native | Express | MongoDB | Jest | EC2",
@@ -38,7 +38,7 @@ let projects = [
       pos: 0
    },
    {
-      name: "Foex", 
+      name: "Foex / nwHacks2020 Top 35/145", 
       image: Foex, 
       description: "A expiry date tracker that aims to mitigate food waste. You take a picture with the app and it will automatically recognize the food object and give an estimated expiry date.", 
       tools: "Java | Azure Computer Vision API",
