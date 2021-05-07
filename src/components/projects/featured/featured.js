@@ -20,9 +20,9 @@ let projects = [
       pos: 1
    },
    {
-      name: "Pilldex / 4th Place in Software Engineering" ,
+      name: "Pilldex / 4th Place in SWE Year" ,
       image: Pilldex, 
-      description: "A centralized pill management app with that dynamically adapts reminders based on your habits. Be in the loop with what pills you take today.", 
+      description: "A centralized pill management app with that dynamically adapts reminders to user's habits. Be in the loop with what pills to take today.", 
       tools: "React Native | Express | MongoDB | Jest | EC2",
       github: "https://github.com/mpchow/pilldex", 
       link: "",
