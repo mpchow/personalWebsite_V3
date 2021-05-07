@@ -31,7 +31,7 @@ let projects = [
    {
       name: "Currensee", 
       image: Currensee, 
-      description: "A currency visualizer that allows users to analyze historical conversion rates. You can also quickly calculate the current amount from one currency to another.", 
+      description: "A currency visualizer that allows users to analyze historical conversion rates. Quickly convert between currencies.", 
       tools: "React | Exchange Rates API",
       github: "https://github.com/mpchow/CurrenSee", 
       link: "https://currensee.netlify.app/",
@@ -40,7 +40,7 @@ let projects = [
    {
       name: "Foex / nwHacks2020 Top 35/145", 
       image: Foex, 
-      description: "A expiry date tracker that aims to mitigate food waste. You take a picture with the app and it will automatically recognize the food object and give an estimated expiry date.", 
+      description: "Tracks and manages expiry dates to help mitigate food waste. Upload a picture to automatically generate an expiry date.", 
       tools: "Java | Azure Computer Vision API",
       github: "https://github.com/mpchow/FOEX_nwHacks2020", 
       link: "",
