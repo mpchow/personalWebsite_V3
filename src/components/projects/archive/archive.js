@@ -14,7 +14,7 @@ let projects = [
       name: "Personal Website V2",
       description: "My unfinished V2 website before I decided to completely overhaul it and make V3 :)",
       github: "https://github.com/mpchow/personalWebsite_V2",
-      link: "",
+      link: "https://matthewchowv2.netlify.app",
       pos: 1
    },
    {
