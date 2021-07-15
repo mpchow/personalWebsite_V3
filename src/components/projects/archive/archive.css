@@ -59,4 +59,10 @@
    justify-content: space-between;
    height: 100%;
 }
+.archive-project-description p {
+   font-size: 1.1vw;
+}
+.archive-project-description h4 {
+   font-size: 2vw;
+}
 
