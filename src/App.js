@@ -7,6 +7,7 @@ import Projects from './components/projects/projects'
 import Footer from './components/footer/footer'
 import Resume from './components/resume/resume'
 import Loading from './components/loading/loading'
+import resume from './components/resume/MatthewChow_Resume.pdf'
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,6 +18,7 @@ import React, { useState } from 'react';
 function App() {
   let [state, setState] = useState(true);
   setTimeout(() => {setState(false)}, 2500);
+  console.log(resume)
   return (
     <Router>  
       <div className="App">
