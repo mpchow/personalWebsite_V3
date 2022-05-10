@@ -11,6 +11,37 @@
    color: #6FB6DD;
 }
 
+.Coinbase {
+   color: #D77FA1;
+}
+.Coinbase {
+   display: inline;
+   position: relative;
+ }
+ .Coinbase:hover {
+    cursor: pointer;
+ }
+ .Coinbase:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   right: 0;
+   width: 0;
+   bottom: -5px;
+   background: #D77FA1;
+   height: 2px;
+   transition-property: width;
+   transition-duration: 0.5s;
+   transition-timing-function: ease-out;
+ }
+ .Coinbase:hover:after,
+ .Coinbase:focus:after,
+ .Coinbase:active:after {
+   left: 0;
+   right: auto;
+   width: 100%;
+ }
+
 .UBC {
    color: #568B9D;
 }

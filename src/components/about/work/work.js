@@ -3,10 +3,11 @@ import './work.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 let experience = [
-   {title: "Software Engineer Intern / League", date: "May 2021 - August 2021", pos: 0},
-   {title: "Software Developer Intern / SAP", date: "Sept 2020 - April 2021", pos: 1},
-   {title: "Software & QA Engineer Intern / Perk Labs", date: "July 2020 - August 2020", pos: 2},
-   {title: "Software Developer / UBC Solar", date: "Sept 2019 - April 2020", pos: 3},
+   {title: "Incoming Software Engineer Intern / Coinbase", date: "June 2022 - August 2022", pos: 0},
+   {title: "Software Engineer Intern / League", date: "May 2021 - August 2021", pos: 1},
+   {title: "Software Developer Intern / SAP", date: "Sept 2020 - April 2021", pos: 2},
+   {title: "Software & QA Engineer Intern / Perk Labs", date: "July 2020 - August 2020", pos: 3},
+   {title: "Software Developer / UBC Solar", date: "Sept 2019 - April 2020", pos: 4},
 ]
 
 let speed = 0.5

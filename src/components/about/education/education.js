@@ -22,7 +22,7 @@ class Education extends React.Component {
                         <h4>University of British Columbia</h4>
                         <h5>Expected May 2023</h5>
                      </div>
-                     <h5 className="education-content">Computer Engineering 3.61/4.00</h5>
+                     <h5 className="education-content">Computer Engineering 3.70/4.00</h5>
 
                   </div>
 
