@@ -16,7 +16,7 @@ class Home extends React.Component {
             </ScrollAnimation>
 
             <ScrollAnimation animateIn="fadeInUp" animateOnce="True" delay={0 * interval + delay} duration={speed}>
-               <h4>An incoming Software Engineer Intern at <a href="https://www.coinbase.com" className="Coinbase" target="_blank" rel="noopener noreferrer">Coinbase</a></h4> 
+               <h4>A Software Engineer Intern at <a href="https://www.coinbase.com" className="Coinbase" target="_blank" rel="noopener noreferrer">Coinbase</a></h4> 
             </ScrollAnimation>
 
             <ScrollAnimation animateIn="fadeInUp" animateOnce="True" delay={1 * interval + delay} duration={speed}>
